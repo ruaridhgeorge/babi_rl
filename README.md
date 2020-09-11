@@ -3,6 +3,7 @@ Reinforcement learning environment for Facebook Research's bAbI tasks.
 
 ## Requirements
 - Gym
+- PyTorch
 - babi_loader.py from https://github.com/dandelin/Dynamic-memory-networks-plus-Pytorch
 
 ## To test
