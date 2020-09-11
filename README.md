@@ -8,4 +8,4 @@ Reinforcement learning environment for Facebook Research's bAbI tasks.
 
 ## To test
 - Deep Recurrent Q Network (DRQN) agent from https://github.com/CgnRLAgent/cog_tasks_rl_agents
-- Run `python test_drqn.py`
+- Run `python train_drqn.py`
