@@ -1,12 +1,12 @@
 #export PYTHONPATH=$PYTHONPATH:~/cog_ml_tasks/:~/cog_tasks_rl_agents/
+# sys.path.insert(1, 'dmn_pytorch')
+# sys.path.insert(1, 'gym-babi/gym_babi/envs')
+# Use appropriate python path commands
 
 import gym
 import sys
 import torch
 import random
-
-sys.path.insert(1, 'dmn_pytorch')
-sys.path.insert(1, 'gym-babi/gym_babi/envs')
 
 from babi_env import BabiEnv
 from DRQN.DRQN_agent import Agent_DRQN
@@ -16,13 +16,13 @@ N_tr = 10000
 N_tst = 5000
 
 TASK_ID = 1
-MAX_MEM_SIZE = 400 #300
+MAX_MEM_SIZE = 400
 LR = 1e-3
 EPSILON = 0.999
 GAMMA = 0.9
 PARAMS = {
     "lstm_hidden_size": 50,
-    "n_lstm_layers": 2, #1
+    "n_lstm_layers": 2,
     "linear_hidden_size": 50,
     "n_linear_layers": 1
 }
