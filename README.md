@@ -1,2 +1,9 @@
 # babi_rl
-Reinforcement learning on Facebook Research's bAbI tasks
+Reinforcement learning environment for Facebook Research's bAbI tasks.
+
+## Requirements
+- Gym
+- babi_loader.py from https://github.com/dandelin/Dynamic-memory-networks-plus-Pytorch
+
+## To test
+- Deep Recurrent Q Network (DRQN) agent from https://github.com/CgnRLAgent/cog_tasks_rl_agents
